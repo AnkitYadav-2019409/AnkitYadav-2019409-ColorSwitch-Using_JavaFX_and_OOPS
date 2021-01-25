@@ -3,10 +3,10 @@
 This is a clone of the popular android game, Color Switch. This game is made using the concepts of OOPs and JavaFX.
 Concepts used here are: Polymorphism, Inheritance, Abstraction, Encapsulation, Classes, Objects, Class Relationships, Interfaces, Abstract Classes, Threads and some design Patterns.
 
-Also the uml diagram of this project is uploaded with in this repository.
+Also, the uml diagram and the use-case diagram of this project are uploaded within this repository.
 
 How to run this project in your system:
-Step1. Open this folder as a project in your IntelliJ Idea.
+Step1. Extract and open this folder as a project in your IntelliJ Idea.
 Step2. Add Javafx sdk to this project. for help use the link: https://www.jetbrains.com/help/idea/javafx.html
 Step3. Then just run it.
 
