@@ -6,7 +6,7 @@ Concepts used here are: Polymorphism, Inheritance, Abstraction, Encapsulation, C
 Also, the uml diagram and the use-case diagram of this project are uploaded within this repository.
 
 How to run this project in your system:
-Step1. Extract and open this folder as a project in your IntelliJ Idea.
+Step1. Extract and open folder "Color_Switch_TRY5" as a project in your IntelliJ Idea which is inside "Color_Switch_TRY5.zip".
 Step2. Add Javafx sdk to this project. for help use the link: https://www.jetbrains.com/help/idea/javafx.html
 Step3. Then just run it.
 
