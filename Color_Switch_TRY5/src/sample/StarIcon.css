@@ -1,0 +1,5 @@
+.background {
+    -fx-background-image: url('StarIcon.jpg');
+    -fx-background-size: stretch;
+    -fx-background-repeat: no-repeat;
+}

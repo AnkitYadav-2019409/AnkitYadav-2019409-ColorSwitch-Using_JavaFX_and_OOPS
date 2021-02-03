@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane fx:id="GamePlay_AnchorPane" prefHeight="640.0" prefWidth="385.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameplayController">
+   <children>
+      <ImageView fitHeight="47.0" fitWidth="41.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PauseButton.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="217.0" layoutY="608.0" mnemonicParsing="false" onMouseClicked="#BounceBall" onMouseReleased="#BounceBall" text="UP" />
+      <Button layoutX="339.0" layoutY="608.0" mnemonicParsing="false" onMouseClicked="#InitializeAnimate" text="Start" />
+      <Button layoutX="133.0" layoutY="608.0" mnemonicParsing="false" onMouseClicked="#ReleaseBall" onMouseReleased="#ReleaseBall" text="DOWN" />
+      <Button layoutX="7.0" layoutY="8.0" mnemonicParsing="false" onMouseClicked="#PauseButton" opacity="0.0" prefHeight="26.0" prefWidth="31.0" text="Pause" AnchorPane.leftAnchor="3.0" AnchorPane.topAnchor="3.0" />
+      <Button layoutX="6.0" layoutY="529.8" mnemonicParsing="false" onMouseClicked="#BackToMainMenuButton" prefHeight="39.0" prefWidth="41.0" style="-fx-background-color: black;" styleClass="Home" stylesheets="@ColorSwitcherIcon.css" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0" />
+      <Group fx:id="Obstacle22" layoutX="212.0" layoutY="78.5">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="150.0" layoutY="0.5" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="150.0" layoutX="150.5" layoutY="135.5" rotate="90.0" stroke="BLACK" strokeType="INSIDE" translateX="-82.0" translateY="-67.0" width="15.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="150.0" layoutX="136.5" layoutY="0.5" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#211fff" height="150.0" layoutX="2.5" layoutY="15.0" rotate="-90.0" stroke="BLACK" strokeType="INSIDE" translateX="66.0" translateY="-82.5" width="15.0" />
+         </children>
+      </Group>
+      <Group fx:id="Obstacle3" layoutX="62.0" layoutY="357.0">
+         <children>
+            <Arc fill="#1f93ff00" layoutX="26.0" length="90.0" radiusX="70.0" radiusY="70.0" startAngle="45.0" stroke="#ff1f1f" strokeType="INSIDE" strokeWidth="10.0" type="OPEN" />
+            <Arc fill="#1f93ff00" layoutX="83.0" layoutY="60.0" length="90.0" radiusX="70.0" radiusY="70.0" rotate="90.0" startAngle="45.0" stroke="#211fff" strokeType="INSIDE" strokeWidth="10.0" translateX="2.0" type="OPEN" />
+            <Arc fill="#1f93ff00" layoutX="25.5" layoutY="119.5" length="90.0" radiusX="70.0" radiusY="70.0" rotate="180.0" startAngle="45.0" stroke="GREEN" strokeType="INSIDE" strokeWidth="10.0" type="OPEN" />
+            <Arc fill="#1f93ff00" layoutX="-34.0" layoutY="60.0" length="90.0" radiusX="70.0" radiusY="70.0" rotate="270.0" startAngle="45.0" stroke="YELLOW" strokeType="INSIDE" strokeWidth="10.0" type="OPEN" />
+         </children>
+      </Group>
+      <Group fx:id="Obstacle1" layoutX="179.0" layoutY="262.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="12.0" layoutX="44.0" layoutY="133.0" rotate="-90.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="12.0" layoutX="90.0" layoutY="89.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#211fff" height="12.0" layoutX="-5.0" layoutY="89.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="12.0" layoutX="44.0" layoutY="45.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+         </children>
+      </Group>
+      <Group fx:id="Obstacle21" layoutX="9.0" layoutY="61.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="12.0" layoutX="44.0" layoutY="133.0" rotate="-90.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="12.0" layoutX="90.0" layoutY="89.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#211fff" height="12.0" layoutX="-5.0" layoutY="89.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="12.0" layoutX="44.0" layoutY="45.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+         </children>
+      </Group>
+      <AnchorPane layoutX="172.0" layoutY="419.0" prefHeight="50.0" prefWidth="50.0" styleClass="background" stylesheets="@ColorSwitcherIcon.css" />
+      <AnchorPane layoutX="171.0" layoutY="247.0" prefHeight="50.0" prefWidth="50.0" styleClass="background" stylesheets="@StarIcon.css" />
+      <Circle id="Ball" fx:id="uchallatiball" fill="#211fff" layoutX="199.0" layoutY="535.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

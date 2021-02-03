@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="PauseScreenAnchorPane" prefHeight="640.0" prefWidth="385.0" styleClass="background" stylesheets="@PauseScreen.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PauseGameScreen">
+   <children>
+      <Button layoutX="71.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#BackToMainMenuButton" opacity="0.0" prefHeight="36.0" prefWidth="45.0" text="Back To Main Menu" />
+      <Button layoutX="139.0" layoutY="327.0" mnemonicParsing="false" onMouseClicked="#ResumeGameButton" opacity="0.0" prefHeight="91.0" prefWidth="108.0" text="Resume" />
+   </children>
+</AnchorPane>

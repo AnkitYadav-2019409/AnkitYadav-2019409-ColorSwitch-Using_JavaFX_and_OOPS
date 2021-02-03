@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<GridPane fx:id="GameMainMenu" alignment="center" hgap="10" minHeight="640.0" minWidth="385.0" style="-fx-background-color: BLACK;" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane fx:id="GameMenuAnchorPane" minHeight="640.0" minWidth="385.0" prefHeight="640.0" prefWidth="385.0" style="-fx-background-color: BLACK;">
+         <children>
+            <ImageView fitHeight="640.0" fitWidth="385.0" layoutX="1.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="3.5438232421875" AnchorPane.leftAnchor="0.3" AnchorPane.topAnchor="3.0">
+               <image>
+                  <Image url="@colorSwitch1.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="316.0" layoutY="179.0" mnemonicParsing="false" onMouseClicked="#Exit" opacity="0.0" prefHeight="39.0" prefWidth="49.0" text="Exit" />
+            <Button layoutX="18.0" layoutY="53.0" mnemonicParsing="false" onMouseClicked="#SettingButton" opacity="0.0" prefHeight="39.0" prefWidth="50.0" text="Settings" />
+            <Button layoutX="18.0" layoutY="116.0" mnemonicParsing="false" onMouseClicked="#Saved_GamesButton" opacity="0.0" prefHeight="39.0" prefWidth="50.0" text="Saved Games" />
+            <Button layoutX="316.0" layoutY="54.0" mnemonicParsing="false" onMouseClicked="#HelpButton" opacity="0.0" prefHeight="39.0" prefWidth="50.0" text="Help" />
+            <Button layoutX="316.0" layoutY="116.0" mnemonicParsing="false" onMouseClicked="#High_ScoresButton" opacity="0.0" prefHeight="39.0" prefWidth="50.0" text="HIgh Scores" />
+            <Circle fill="YELLOW" layoutX="196.5" layoutY="344.0" opacity="0.1" radius="13.0" stroke="YELLOW" strokeType="INSIDE" />
+            <Circle fill="YELLOW" layoutX="196.5" layoutY="325.0" opacity="0.3" radius="16.0" stroke="YELLOW" strokeType="INSIDE" />
+            <Circle fill="YELLOW" layoutX="196.0" layoutY="308.0" radius="19.0" stroke="YELLOW" strokeType="INSIDE" />
+            <Button layoutX="145.0" layoutY="483.0" mnemonicParsing="false" onMouseClicked="#Main_Play" opacity="0.0" prefHeight="87.0" prefWidth="103.0" text="Play" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

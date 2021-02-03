@@ -1,0 +1,11 @@
+.background {
+    -fx-background-image: url('ColorSwitcher.jpg');
+    -fx-background-size: stretch;
+    -fx-background-repeat: no-repeat;
+}
+
+.Home {
+    -fx-background-image: url('BackToMainMenuIcon.jpg');
+    -fx-background-size: stretch;
+    -fx-background-repeat: no-repeat;
+}
